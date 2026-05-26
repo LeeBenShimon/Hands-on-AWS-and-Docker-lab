@@ -1,8 +1,31 @@
-# Hands-on-AWS-and-Docker-lab
-•	Generate an Ubuntu EC2 instance using a Free Tier eligible option.
-•	Connect to the EC2 instance using SSH. 
-•	Install Docker Engine on the Ubuntu machine. 
-•	Run an Nginx Docker container that publishes port 80. 
-•	Configure the EC2 Security Group to allow SSH and HTTP traffic. 
-•	Validate that the Nginx home page is reachable through the instance public IP address. 
+# Hands-on AWS and Docker Lab
 
+## Overview
+
+This project demonstrates how to deploy and run a Dockerized Nginx web server on an Ubuntu EC2 instance in AWS.
+
+The lab includes:
+- Launching an Ubuntu EC2 instance
+- Connecting via SSH
+- Installing Docker Engine
+- Running an Nginx container
+- Configuring Security Groups
+- Verifying public web access
+
+---
+
+## Technologies Used
+
+- AWS EC2
+- Ubuntu Linux
+- Docker Engine
+- Nginx
+- SSH
+
+---
+
+## Architecture
+
+User Browser → AWS EC2 Instance → Docker Container → Nginx
+
+---
